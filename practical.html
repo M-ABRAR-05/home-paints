@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    
+    <link rel="stylesheet" href="practical.css">
+    <link rel="stylesheet" href="media_queries.css">
+
+</head>
+<body>
+    <header> 
+        
+        <div class="header">
+            <a href="#">
+                <img class="logo" src="new-logo1.png" alt="logo">
+            </a>
+            
+            <nav>
+                <ul type="none">
+                    <li><a href="#"><h2>Home</h2></a></li>
+                    <li><a href="#"><h2>About Us</h2></a></li>
+                    <li><a href="#"><h2>Contact Us</h2></a></li>
+                    <li><a href="#"><h2>Products</h2></a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div>
+            <div class="mobile-header">
+                <a href="#">
+                    <img class="logo" src="new-logo1.png" alt="logo">
+                </a>
+                
+                <button onclick="navShow()">
+                    <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+                </button>
+            </div>
+                
+            <nav class="mobile-nav">
+            <div class="menu" id="menu">
+                    <ul type="none">
+                        <li class="list"><a href="#"><h2>Home</h2></a></li>
+                        <li class="list"><a href="#"><h2>About Us</h2></a></li>
+                        <li class="list"><a href="#"><h2>Contact Us</h2></a></li>
+                        <li class="list"><a href="#"><h2>Products</h2></a></li>
+                    </ul>
+                </div>    
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-container">       
+            <div class="hero">
+                
+                <div class="image-container">
+                    <img class="interior1" src="hero-interior.jpg" alt="">
+                    <img class="interior2" src="hero.jpg" alt="paint">
+                    <img class="exterior" src="exterior1.jpg" alt="">
+                </div>
+                
+                <div class="hero-content">
+                    <h1>Lets Make It Luxurious</h1>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque deleniti odio perferendis est repellendus magni reprehenderit atque ea inventore, necessitatibus voluptatibus unde deserunt maiores perspiciatis, saepe enim quidem quod eum.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section class="products">
+
+            <div class="product-explore">
+                <h1 >Explore Products</h1>
+            </div>
+
+            <div class="product-types">
+                
+                <div class="product-container">
+                    <h2 class="product-heading">Interior</h2>
+                    
+                    <img src="interior1.jpg" alt="interior">
+                    
+                    <p class="product-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione minima autem quaerat molestias placeat, debitis ut cum repellat fugit veritatis molestiae saepe magnam iure consequuntur consequatur, nihil neque aut ad?</p>
+                </div>
+                
+                <div class="product-container">
+                    <h2 class="product-heading">Exterior</h2>
+                    
+                    <img src="exterior2.jpg" alt="exterior">
+                    
+                    <p class="product-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione minima autem quaerat molestias placeat, debitis ut cum repellat fugit veritatis molestiae saepe magnam iure consequuntur consequatur, nihil neque aut ad?</p>
+                </div>
+                
+                <div class="product-container">
+                    <h2 class="product-heading">Wooden Touch</h2>
+                    
+                    <img src="wooden1.jpg" alt="wooden">
+                    
+                    <p class="product-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione minima autem quaerat molestias placeat, debitis ut cum repellat fugit veritatis molestiae saepe magnam iure consequuntur consequatur, nihil neque aut ad?</p>
+                </div>
+                
+                <div class="product-container">
+                    <h2 class="product-heading">Waterproofing</h2>
+                    
+                    <img src="waterproof2.jpg" alt="">
+                    
+                    <p class="product-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione minima autem quaerat molestias placeat, debitis ut cum repellat fugit veritatis molestiae saepe magnam iure consequuntur consequatur, nihil neque aut ad?</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="notification">
+            <div>
+                <h1>
+                    Notify me with new updates
+                </h1>
+            </div>
+            <button>Subscribe</button>
+        </section>
+        <section class="footer">
+            <div class="footer-sections">
+                <img src="new-logo1.png" alt="">
+                
+                <div class="icon-box">
+                    <a class="icon" href="#"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+                    <a class="icon" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a class="icon" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a class="icon" href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+                    <a class="icon" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a class="icon" href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+            </div>
+            
+            <!-- <div class="links"> -->
+                <div class="foot-sections">
+                    <div class="foot-section">
+                        <h2>Page Links</h2>
+                        <button onclick="pageShow()">
+                            <ion-icon class="footer-icon" name="caret-down-outline"></ion-icon>
+                        </button>
+                    </div>
+                    <div class="page-links" id="page-links">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="foot-sections">
+                    <div class="foot-section">
+                        <h2>Products</h2>
+                        <button onclick="productShow()">
+                            <ion-icon class="footer-icon" name="caret-down-outline"></ion-icon>
+                        </button>
+                    </div>
+                    <div class="product-links" id="product-links">
+                        <ul>
+                            <li><a href="#">Interior</a></li>
+                            <li><a href="#">Exterior</a></li>
+                            <li><a href="#">Wooden Touch</a></li>
+                            <li><a href="#">Waterproofing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="foot-sections">
+                    <div class="foot-section">
+                        <h2>Contact Us</h2>
+                        <button onclick="contactShow()">
+                            <ion-icon class="footer-icon" name="caret-down-outline"></ion-icon>
+                    </button>
+                    </div>
+                    <div class="contact-links" id="contact-links">
+                        <ul>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Phone No.</a></li>
+                            <li><a href="#">Customer Care</a></li>
+                            <li><a href="#">Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </section>
+    </footer>    
+
+    <script>
+        var nav = document.getElementById('menu');
+        var navDisplay = 1;
+
+        function navShow() {
+            if(navDisplay == 1)
+            {
+                menu.style.display = 'block';
+                navDisplay = 0;
+            }
+            else
+            {
+                menu.style.display = 'none';
+                navDisplay = 1;
+            }
+        }
+
+
+        // const toggleButton = document.getElementById('nav-toggle');
+        // const navLinks = document.getElementById('menu');
+
+        // toggleButton.addEventListener('click' , () =>{
+        //     menu.classList.toggle("active");
+        // })
+
+        // const pageToggleButton = document.getElementById('page-toggle');
+        // const pageLinks = document.getElementById('page-link');
+
+        // toggleButton.addEventListener('click' , () =>{
+        //     pageLinks.classList.toggle("active");
+        // })
+
+
+        var page = document.getElementById('page-links');
+        var display = 0;
+
+        function pageShow() {
+            if(display == 0)
+            {
+                page.style.display = 'block';
+                display = 1;
+            }
+            else
+            {
+                page.style.display = 'none';
+                display = 0;
+            }
+        }
+
+        var product = document.getElementById('product-links');
+        var display = 0;
+
+        function productShow() {
+            if(display == 0)
+            {
+                product.style.display = 'block';
+                display = 1;
+            }
+            else
+            {
+                product.style.display = 'none';
+                display = 0;
+            }
+        }
+
+        var contact = document.getElementById('contact-links');
+        var display = 0;
+
+        function contactShow() {
+            if(display == 0)
+            {
+                contact.style.display = 'block';
+                display = 1;
+            }
+            else
+            {
+                contact.style.display = 'none';
+                display = 0;
+            }
+        }
+
+    </script>
+</body>
+</html>
